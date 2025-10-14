@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ffd14e7-da7e-47e2-be56-34a563f9a316">
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбслуживаниеКлиентов2</picture>
+  </picture>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ВКМ_УведомленияТелеграммБоту</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
+  <content>Constant.BKM_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
+</mdclass:Subsystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e6eb170-373d-4e2f-bece-777e75683c76">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ДобавленныеОбъекты2</picture>
+  </picture>
+  <content>Enum.ВКМ_СтатусЗаявкиНаОбслуживание</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+  <content>Constant.BKM_ТокенУправленияТГБотом</content>
+  <content>Constant.BKM_ИдентификаторГруппыДляОповещения</content>
+  <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
+  <content>Document.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Enum.ВКМ_ВидыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗаработнойПлаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетССотрудниками</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</content>
+  <content>Role.BKM_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</content>
+  <content>Role.BKM_ИспользованиеОбработкиЗаполнениеГрафикаРабот</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаВыплатаЗарплаты</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</content>
+  <content>Role.BKM_ИспользованиеОтчетаВыработкаСпециалистов</content>
+  <content>Role.BKM_ИспользованиеОтчетаАнализВыставленныхАктов</content>
+  <content>Role.BKM_ИспользованиеОтчетаАнализРасходЗапланированныхОтпусков</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+</mdclass:Subsystem>

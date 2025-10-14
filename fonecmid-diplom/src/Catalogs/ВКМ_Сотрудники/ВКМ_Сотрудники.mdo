@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d735b1b2-93a2-4ed3-bdaa-1aa5f194703d">
+  <producedTypes>
+    <objectType typeId="4dcd63bf-9a30-44ea-bccf-a2295eedd0e8" valueTypeId="ab35f51c-beaf-4e60-995e-5ec81def9968"/>
+    <refType typeId="ad402a95-721d-4a4e-a47f-13c492a4cc6e" valueTypeId="f5ac385c-9326-4c8d-a49f-115b8e75e911"/>
+    <selectionType typeId="e97199fb-c133-400b-a837-b5da664981b5" valueTypeId="2450df78-f5c8-4235-af51-d99d7a9556f4"/>
+    <listType typeId="3cded9b5-8dd8-48c0-a165-2442d392efdd" valueTypeId="5ae0e548-1da0-4f8a-9797-8462c5c7ed43"/>
+    <managerType typeId="f28002a3-1216-4799-8f7e-f6eab7dd5888" valueTypeId="35f12e63-642d-4550-aacd-8e81cc764ddf"/>
+  </producedTypes>
+  <name>ВКМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="87df1fb5-7aeb-4ab7-8284-00d5d0129b50">
+    <name>ВидСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_ВидыСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e76d2b2c-bffc-4870-9e26-2e7fb60bba9b">
+    <name>ФормаВыбораСпециалиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора специалиста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
