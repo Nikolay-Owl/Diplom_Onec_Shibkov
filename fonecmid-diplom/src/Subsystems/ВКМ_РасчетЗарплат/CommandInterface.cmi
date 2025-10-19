@@ -3,7 +3,6 @@
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
-      <commands>Document.BKM_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗаработнойПлаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
@@ -36,7 +35,6 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
-      <commands>Document.BKM_НачислениеЗаработнойПлаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_ВыплатаЗаработнойПлаты.StandardCommand.OpenList</commands>
     </orderFragments>

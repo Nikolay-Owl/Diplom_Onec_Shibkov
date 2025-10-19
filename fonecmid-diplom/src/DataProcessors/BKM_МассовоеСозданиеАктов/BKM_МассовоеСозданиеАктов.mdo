@@ -23,6 +23,49 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="3d11da8e-6eca-4673-a2c3-3636f5d998cd">
+    <name>ИДЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДЗадания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43c0d39b-315b-43d8-a236-c570bcf80ddb">
+    <name>Индикатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикатор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6dd3b57d-98cb-46d5-8403-9205e4531dea">
+    <name>СтрокаСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка состояния</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="39ef4bdf-edcc-4bd7-8d2a-5493420d6f2a">
     <producedTypes>
       <objectType typeId="071c4569-135c-4159-8d9a-ac4e16f293d3" valueTypeId="0f9eb18c-0701-49c6-b76f-70c9d8fe8b7c"/>
