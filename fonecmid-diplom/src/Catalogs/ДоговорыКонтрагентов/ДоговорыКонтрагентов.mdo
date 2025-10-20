@@ -117,6 +117,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыКонтрагентов.Form.ВКМ_ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ДоговорыКонтрагентов.Form.ФормаСписка</defaultListForm>
   <attributes uuid="a81d1f8d-ea75-4cec-9742-5970eceda758">
     <name>Организация</name>
@@ -152,7 +153,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1a6fb610-dfa9-4074-b672-10c7017d932e">
+  <attributes uuid="112c2cb6-d7b4-40d5-8567-d37c9dde3daf">
     <name>BKM_ДатаНачалаДействияДоговора</name>
     <synonym>
       <key>ru</key>
@@ -160,7 +161,9 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -168,15 +171,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="33c3ddce-11e6-402d-bfc8-9b9470402bf6">
+  <attributes uuid="d380091f-1b04-40ca-8ffb-dcfca0ae7117">
     <name>BKM_ДатаОкончанияДействияДоговора</name>
     <synonym>
       <key>ru</key>
-      <value>Дата окончания действия договора</value>
+      <value>BKM дата окончания действия договора</value>
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -184,18 +189,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b8962c70-dd2e-4e52-b86b-ca33fc4078f8">
-    <name>BKM_ЕжемесячнаяАбонентскаяПлата</name>
+  <attributes uuid="aa36cd07-43f1-4a67-8301-915ca0be0b0a">
+    <name>BKM_СуммаАбонентскойПлаты</name>
     <synonym>
       <key>ru</key>
-      <value>Ежемесячная абонентская плата</value>
+      <value>Сумма абонентской платы</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>15</precision>
         <scale>2</scale>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -204,18 +208,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="87d945ed-ce0e-4895-aeb6-dc7af10b86ad">
-    <name>BKM_СтоимостьЧасаРаботыСпециалиста</name>
+  <attributes uuid="4f1cdf6e-4b08-460d-ae7f-374b6546fd65">
+    <name>BKM_СтоимостьЧаса</name>
     <synonym>
       <key>ru</key>
-      <value>Стоимость часа работы специалиста</value>
+      <value>Стоимость часа</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
         <scale>2</scale>
-        <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -229,6 +232,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6aad6b08-85df-4dc3-826b-5fccd4a080fe">
+    <name>ВКМ_ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКМ форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

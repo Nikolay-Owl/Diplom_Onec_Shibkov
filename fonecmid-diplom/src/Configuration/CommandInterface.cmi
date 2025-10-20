@@ -4,5 +4,9 @@
     <subsystems>Subsystem.ПокупкиИПродажи</subsystems>
     <subsystems>Subsystem.Деньги</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
+    <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+    <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
+    <subsystems>Subsystem.ВКМ_РасчетЗарплат</subsystems>
+    <subsystems>Subsystem.ВКМ_Отчеты</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

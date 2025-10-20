@@ -18,8 +18,19 @@
       <value>Период</value>
     </synonym>
     <type>
-      <types>StandardPeriod</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -71,10 +82,10 @@
       <objectType typeId="071c4569-135c-4159-8d9a-ac4e16f293d3" valueTypeId="0f9eb18c-0701-49c6-b76f-70c9d8fe8b7c"/>
       <rowType typeId="dd7c1be3-e0a6-4439-9e27-2f22741cad71" valueTypeId="b3c1d4cf-034d-4bd5-858b-de397b1477f8"/>
     </producedTypes>
-    <name>СписокДоговоровИРеализаций</name>
+    <name>ВыполненныеРаботы</name>
     <synonym>
       <key>ru</key>
-      <value>Список договоров и реализаций</value>
+      <value>Выполненные работы</value>
     </synonym>
     <attributes uuid="14d7b86f-d8b2-4ee2-8b8b-4f29c2a36cf3">
       <name>Договор</name>
@@ -89,10 +100,10 @@
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="472ab248-4947-4600-84e5-9535868fad74">
-      <name>Реализация</name>
+      <name>ДокументРеализации</name>
       <synonym>
         <key>ru</key>
-        <value>Реализация</value>
+        <value>Документ реализации</value>
       </synonym>
       <type>
         <types>DocumentRef.РеализацияТоваровУслуг</types>

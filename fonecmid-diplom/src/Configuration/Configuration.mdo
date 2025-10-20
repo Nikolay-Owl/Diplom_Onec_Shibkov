@@ -905,7 +905,6 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграмм</commonModules>
-  <commonModules>CommonModule.ВКМ_ДоработкаДокументаРеализацияТоваровИУслугСервер</commonModules>
   <commonModules>CommonModule.ВКМ_МассовоеСозданиеРеализаций</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
